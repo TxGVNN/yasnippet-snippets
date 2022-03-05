@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: node-load
+# key: node-load
+# --
+export NVM_DIR="$HOME/.nvm"
+source "$NVM_DIR/nvm.sh"
+nvm use $1

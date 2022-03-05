@@ -1,0 +1,6 @@
+# key: golang-load
+# name: golang-load
+# --
+export GVM_DIR="$HOME/.gvm"
+source "$GVM_DIR/scripts/gvm"
+gvm use $1
