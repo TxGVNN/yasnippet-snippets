@@ -26,7 +26,7 @@
 
 (defun yas-trimmed-comment-start ()
   "This function returns `comment-start' trimmed by whitespaces."
-  (yas-s-trim comment-start))
+  (yas-s-trim (or comment-start "")))
 
 (defun yas-trimmed-comment-end ()
   "This function returns `comment-end' trimmed by whitespaces if `comment-end' is not empty.
