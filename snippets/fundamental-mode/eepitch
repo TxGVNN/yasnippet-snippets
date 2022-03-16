@@ -2,8 +2,8 @@
 # name: eepitch
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region nil))
 # --
-`(yas-trimmed-comment-start)` (eepitch-${1:shell})
-`(yas-trimmed-comment-start)` (eepitch-kill)
-`(yas-trimmed-comment-start)` (eek "C-x o C-x / b *$1${2:}* RET C-x o")
-`(yas-trimmed-comment-start)` (setq-local eepitch-buffer-name "*$1$2*")
+ (eepitch-${1:shell})
+ (eepitch-kill)
+ (eek "C-x o C-x / b *$1${2:}* RET C-x o")
+ (setq-local eepitch-buffer-name "*$1$2*")
 
