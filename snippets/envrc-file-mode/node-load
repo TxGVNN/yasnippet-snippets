@@ -5,3 +5,4 @@
 export NVM_DIR="$HOME/.nvm"
 source "$NVM_DIR/nvm.sh"
 nvm use $1
+export PATH=./node_modules/.bin/:$PATH
