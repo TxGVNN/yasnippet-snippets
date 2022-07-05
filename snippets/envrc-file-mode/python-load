@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: python-load
+# key: python-load
+# --
+export PATH=:~/.pyenv/bin:$PATH
+eval "$(pyenv init -)"
+layout pyenv $1
