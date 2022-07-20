@@ -1,6 +1,6 @@
 # key: golang-load
 # name: golang-load
 # --
-export GVM_DIR="$HOME/.gvm"
-source "$GVM_DIR/scripts/gvm"
-gvm use $1
+export GVM_ROOT="$HOME/.gvm"
+source "$GVM_ROOT/scripts/gvm"
+gvm use ${1:$$(yas-choose-value (split-string (shell-command-to-string "GVM_ROOT=$HOME/.gvm ~/.gvm/bin/gvm list | tail -n +4 | tr -d ' '") "\n" t))}
