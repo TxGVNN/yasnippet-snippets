@@ -2,7 +2,4 @@
 # name: eepitch
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region nil))
 # --
- (eepitch-${1:shell})
- (eek "C-x o C-x / b *$1${2:}* RET C-x o")
- (setq-local eepitch-buffer-name "*$1$2*")
-
+ (eepitch '(shell "*${1:shell}*"))
