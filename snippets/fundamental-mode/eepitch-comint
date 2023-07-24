@@ -1,0 +1,5 @@
+# key: eepitch-comint
+# name: eepitch-comint
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region nil))
+# --
+ (eepitch-comint "${1:Shell}" "${2:bash}")
