@@ -2,4 +2,4 @@
 # name: eepitch
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region nil))
 # --
- (eepitch '(shell "*${1:shell}*"))
+ (eepitch '(shell${1:-hist} "*${2:shell}*"))
